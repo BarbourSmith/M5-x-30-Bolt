@@ -12,39 +12,39 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 0.28257686676427524,
-                    "y": 0.27586206896551724,
+                    "x": 0.2847730600292826,
+                    "y": 0.2950191570881226,
                     "uniqueID": 193262,
                     "ioValues": [
                         {
                             "name": "height",
-                            "ioValue": 10
+                            "ioValue": -2.75
                         }
                     ]
                 },
                 {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 0.1720351390922401,
-                    "y": 0.39080459770114945,
+                    "x": 0.16691068814055637,
+                    "y": 0.37931034482758624,
                     "uniqueID": 984794,
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 10
+                            "ioValue": 9.5
                         }
                     ]
                 },
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 0.28770131771595897,
+                    "x": 0.2891654465592972,
                     "y": 0.6666666666666666,
                     "uniqueID": 335112,
                     "ioValues": [
                         {
                             "name": "height",
-                            "ioValue": 10
+                            "ioValue": 30
                         }
                     ]
                 },
@@ -56,11 +56,11 @@
                     "uniqueID": 684713,
                     "ioValues": [
                         {
-                            "name": "3D shape 1",
+                            "name": "3D shape 2",
                             "ioValue": 10
                         },
                         {
-                            "name": "3D shape 2",
+                            "name": "3D shape 3",
                             "ioValue": 10
                         }
                     ],
@@ -80,27 +80,6 @@
                     ]
                 },
                 {
-                    "atomType": "Translate",
-                    "name": "Translate",
-                    "x": 0.4026354319180088,
-                    "y": 0.6666666666666666,
-                    "uniqueID": 915538,
-                    "ioValues": [
-                        {
-                            "name": "xDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "yDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "zDist",
-                            "ioValue": 0
-                        }
-                    ]
-                },
-                {
                     "atomType": "Add BOM Tag",
                     "name": "Add BOM Tag",
                     "x": 0.7071742313323572,
@@ -108,10 +87,10 @@
                     "uniqueID": 949516,
                     "ioValues": [],
                     "BOMitem": {
-                        "BOMitemName": "name",
+                        "BOMitemName": "M5 x 30mm Bolt",
                         "numberNeeded": 1,
-                        "costUSD": 0,
-                        "source": "www.example.com",
+                        "costUSD": 0.1398,
+                        "source": "https://www.mcmaster.com/91239a236",
                         "totalNeeded": 1
                     }
                 },
@@ -140,10 +119,10 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
+                    "ap2Name": "3D shape 3",
+                    "ap2Primary": false,
                     "ap1ID": 335112,
-                    "ap2ID": 915538
+                    "ap2ID": 684713
                 },
                 {
                     "ap1Name": "geometry",
@@ -158,13 +137,6 @@
                     "ap2Primary": true,
                     "ap1ID": 427559,
                     "ap2ID": 335112
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "3D shape 1",
-                    "ap2Primary": false,
-                    "ap1ID": 915538,
-                    "ap2ID": 684713
                 },
                 {
                     "ap1Name": "geometry",

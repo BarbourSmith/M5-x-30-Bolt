@@ -2,7 +2,7 @@
 # Bill Of Materials 
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
-|name|2|$0.00|www.example.com|
-|Total: |2|$0.00| |
+|M5 x 30mm Bolt|2|$0.14|https://www.mcmaster.com/91239a236|
+|Total: |2|$0.14| |
 
- 3xCOG MSRP: $0.00
+ 3xCOG MSRP: $0.42
